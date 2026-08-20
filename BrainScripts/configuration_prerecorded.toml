@@ -1,0 +1,16 @@
+[eeg_signal_origin]
+signal_origin = "prerecorded"
+recorded_signal_filepath = "../PhysicalModels/RecordedData/EEG_sample_data.mat"
+
+[brain]
+brain_source_localization_enabled = true
+brain_leadfield = "../PhysicalModels/LeadFields/leadfield_current_to_scalp.mat"
+
+[fiber]
+fiber_enabled = true
+fiber_leadfield = "../PhysicalModels/LeadFields/leadfield_current_to_wires.mat"
+
+[scalp]
+scalp_enabled = true
+scalp_vertices = "../PhysicalModels/GeometricalData/scalp_vertices.txt"
+electrodes_position = "../PhysicalModels/GeometricalData/electrodes_position.txt"
